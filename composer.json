@@ -1,0 +1,17 @@
+{
+    "name": "gfnl/productqtyincrements",
+    "description": "",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "MIT"
+    ],
+    "autoload": {
+      "psr-4": {
+        "GFNL\\ProductQtyIncrements\\": ""
+      },
+      "files": [
+        "registration.php"
+      ]
+    }
+  }
