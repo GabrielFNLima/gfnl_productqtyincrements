@@ -1,9 +1,9 @@
 var config = {
-    config: {
-        mixins: {
-            'Magento_Checkout/js/view/minicart': {
-                'GFNL_ProductQtyIncrements/js/view/minicart-mixin': true
-            }
-        }
-    }
+    map: {
+        "*": {
+            "Magento_Checkout/template/minicart/item/default.html":
+                "Vendor_Module/template/minicart/item/default.html",
+                minicartUpdateQty:'Vendor_Module/js/minicartUpdateQty'
+        },
+    },
 };
